@@ -1,7 +1,7 @@
 @tool
 extends EditorPlugin
 
-@onready var temp_scene = preload("res://addons/realisticlight/light_scene.tscn")
+@onready var temp_scene = preload("res://addons/instant-realistic-light/light_scene.tscn")
 var button = Button.new()
 
 func _enter_tree():
